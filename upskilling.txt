@@ -1,0 +1,17 @@
+Upskilling Journal:
+
+What have I learned:
+- Data structures
+- - Arrays
+--  Dates
+- Google scripting
+- Git commit
+- Technical Documentation
+- Should be keeping up to time frame
+- Git hub License
+
+What I could have worked on:
+- Git fork
+- API
+
+
