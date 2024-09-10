@@ -1,8 +1,8 @@
-# Productive Work Scheduler (Version 3)
-A google sheet controlled calendar automation tool. This tool will automatically generate a calendar events.
+# Google Calendar - Scheduler Version 3
+An appscript controlled calendar automation tool. This tool will automatically generate a calendar events.
 
 ## Current use cases:
-1. To create schedule for School
+1. To create schedule for school
 2. Shifted Work
 3. To update the whole calendar in one go
 
@@ -11,7 +11,4 @@ A google sheet controlled calendar automation tool. This tool will automatically
 - Google Script (Function as a macro)
 
 ### How To use? :
-PENDING - Document is being created at this stage.
-
-## What could be done next:
-- Ticketing System can be intergrated to help with creating a TODO list
+Please read the user guide - User Guide.pdf
