@@ -12,3 +12,5 @@ An appscript controlled calendar automation tool. This tool will automatically g
 
 ### How To use? :
 Please read the user guide - User Guide.pdf
+
+

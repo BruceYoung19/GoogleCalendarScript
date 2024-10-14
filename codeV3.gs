@@ -161,16 +161,17 @@ function createEvents() { // Read sheet then create event
 
     var eventcategory = data[i][5];
     var color = forColor(data[i][6]);
+    var eventstatus = data[i][8];
 
     var days = wholeWeek();
 
-    if (eventcategory == "Daily") {
+    if (eventcategory == "Daily" && eventstatus == "On") {
       for (var j = 0; j < days.length; j++) {
         var startdate = days[j] + ", " + year.getFullYear() + " " + splitdate(data[i][3]);
         var enddate = days[j] + ", " + year.getFullYear() + " " + splitdate(data[i][4]);
         CalendarApp.createEvent(eventname, new Date(startdate), new Date(enddate)).setDescription(description).setColor(color).removeAllReminders();
       }
-    } else if (eventcategory == "Weekly") {
+    } else if (eventcategory == "Weekly" && eventstatus== "On") {
 
       var weekday = data[i][7];
       var weekdayvalues = weekdayChoseData(weekday, days);
@@ -225,3 +226,5 @@ function weekdayChoseData(dates, input) { // checking which day it is
 
   return finaloutput;
 }
+
+
