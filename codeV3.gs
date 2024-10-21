@@ -227,4 +227,25 @@ function weekdayChoseData(dates, input) { // checking which day it is
   return finaloutput;
 }
 
+// Adding Menu Item 
+// TODO CODE - I may need to create a set up button for this
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('Timetable Support Tool')
+      .addItem('About Tool', 'about')
+      .addSeparator()
+      .addItem('Run Script', 'eventsrun')
+      .addItem('Set Up Excel', 'nothing')
+      .addToUi();
+}
 
+function about() {
+  SpreadsheetApp.getUi()
+     .alert('This is the About tool');
+}
+
+function eventsrun() {
+  SpreadsheetApp.getUi() 
+     .alert('You clicked the second menu item!');
+  createEvents()
+}
