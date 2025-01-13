@@ -246,6 +246,6 @@ function about() {
 
 function eventsrun() {
   SpreadsheetApp.getUi() 
-     .alert('You clicked the second menu item!');
+     .alert('Creating Calendar Events');
   createEvents()
 }
